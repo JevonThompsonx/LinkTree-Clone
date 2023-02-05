@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+}
+
+.img-container {
+    height: 200px;
+    width: fit-content;
+}
+.img-fluid {
+    height:100%;
+}
+h1 { 
+    color: white;
+}
+a {
+    width: 400px;
+}
+
+#share-link {
+    font-size: 30px;
+    width: fit-content;
+    color: white;
+}
