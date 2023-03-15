@@ -21,3 +21,6 @@ a {
     width: fit-content;
     color: white;
 }
+#blog-link {
+    display: none;
+}

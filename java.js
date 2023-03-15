@@ -7,6 +7,10 @@ const link = {
 
 shareLink.addEventListener('click', (e)=> {
     e.preventDefault();
+    try {
     navigator.share(link)
+    } catch {
+      navigator.clipboard.writeText(link.url)
+    }
 } )
 
