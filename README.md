@@ -2,7 +2,7 @@
  My own personal version of a Link tree
 
 Contains links to: 
-- [My website](https://jevonthompsonx.github.io/WebDevJev/)
+- [My website](https://web-dev-jev-blogsite.ue.r.appspot.com/)
 - [My twitter](https://twitter.com/JevonThompson12)
 - [My instagram](https://www.instagram.com/jevonxt/)
 - [My github](https://github.com/JevonThompsonx?tab=repositories)
