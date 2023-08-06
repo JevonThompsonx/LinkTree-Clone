@@ -1,7 +1,9 @@
 # Link Tree Clone 🔗
+
  My own personal version of a Link tree
 
-Contains links to: 
+## Contains links to
+
 - [My website](https://web-dev-jev-blogsite.ue.r.appspot.com/)
 - [My twitter](https://twitter.com/JevonThompson12)
 - [My instagram](https://www.instagram.com/jevonxt/)
