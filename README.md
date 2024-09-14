@@ -4,7 +4,7 @@
 
 ## Contains links to
 
-- [My website](https://web-dev-jev-blogsite.ue.r.appspot.com/)
+- [My website](https://web-dev-blogsite.onrender.com)
 - [My twitter](https://twitter.com/JevonThompson12)
 - [My instagram](https://www.instagram.com/jevonxt/)
 - [My github](https://github.com/JevonThompsonx?tab=repositories)
