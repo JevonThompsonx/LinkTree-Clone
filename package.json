@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "bunx --bun vite",
-    "build": "vue-tsc -b && bunx --bun vite build",
+    "build": "tsc -b && bunx --bun vite build",
     "preview": "vite preview",
     "format": "bun biome format .",
     "lint": "bun biome check ."
