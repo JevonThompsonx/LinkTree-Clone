@@ -1,11 +1,23 @@
-# [Link Tree Clone 🔗](https://jevonthompsonx.github.io/LinkTree-Clone/)
+# A template for myself to use in future projects
+## React + TypeScript + Vite + Bun + Biome + React router
 
- My own personal version of a Link tree
+### How to use: 
 
-## Contains links to
+1. Clone
+  - `git clone https://github.com/JevonThompsonx/react_ts_template.git`
+  - bun install 
+  - Rest is all you
+2. Template
+    - Create template through github by clicking "use this template"
 
-- [My website](https://web-dev-blogsite.onrender.com)
-- [My twitter](https://twitter.com/JevonThompson12)
-- [My instagram](https://www.instagram.com/jevonxt/)
-- [My github](https://github.com/JevonThompsonx?tab=repositories)
-- [Carolina heals client website](https://www.carolinaheals.com)
+### Some whys 
+- React - Big community
+- typescript - type safety
+- vite for easy setup & bundling
+- bun because it goes zoom brrrr
+- biome is a modern linter & formatter
+- react router is ridiculously easy to use
+- vite pwa plugin & asset generator makes it easy to start up a pwa w/ offline functionality
+
+### Thanks
+Thanks for checking out my projects and portfolio!! Reach out with comments, opportunities or suggestions thx! 
