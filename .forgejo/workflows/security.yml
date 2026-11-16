@@ -2,13 +2,18 @@
 # Secret scan (gitleaks) + dependency CVE scan (trivy), pinned versions.
 on:
   push:
-    branches: ["**"]
+    branches: [main, master]
   pull_request:
+    types: [opened, synchronize, reopened]
   schedule:
     - cron: "0 6 * * 1"
 
 permissions:
   contents: read
+
+concurrency:
+  group: security-${{ forgejo.ref }}
+  cancel-in-progress: true
 
 jobs:
   secrets:
