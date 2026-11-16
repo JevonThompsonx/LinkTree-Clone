@@ -6,8 +6,8 @@ on:
   pull_request:
   workflow_dispatch:
 
-permissions:
-  contents: read
+# NOTE: no top-level `permissions:` block. Forgejo does not implement it and
+# warns "has a permissions field which is not supported ... and will be ignored".
 
 concurrency:
   group: ci-${{ forgejo.ref }}
@@ -21,7 +21,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: oven-sh/setup-bun@v2
         with:
-          bun-version: "1.4.4"
+          bun-version: "1.4.0"
       - run: bun install --frozen-lockfile
       - name: lint
         run: bun run lint
